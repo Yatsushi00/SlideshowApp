@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CECBED9226857F7200160F2E /* 風景2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CECBED8F26857F7200160F2E /* 風景2.jpeg */; };
+		CECBED9326857F7200160F2E /* 風景3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CECBED9026857F7200160F2E /* 風景3.jpeg */; };
+		CECBED9426857F7200160F2E /* 風景1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CECBED9126857F7200160F2E /* 風景1.jpeg */; };
+		CEF15BA42684334F00D24753 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF15BA32684334F00D24753 /* ResultViewController.swift */; };
 		CEF770122679E20500D50337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF770112679E20500D50337 /* AppDelegate.swift */; };
 		CEF770142679E20500D50337 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF770132679E20500D50337 /* SceneDelegate.swift */; };
 		CEF770162679E20500D50337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF770152679E20500D50337 /* ViewController.swift */; };
@@ -16,7 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEF7700E2679E20500D50337 /* テスト.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "テスト.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECBED8F26857F7200160F2E /* 風景2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "風景2.jpeg"; sourceTree = "<group>"; };
+		CECBED9026857F7200160F2E /* 風景3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "風景3.jpeg"; sourceTree = "<group>"; };
+		CECBED9126857F7200160F2E /* 風景1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "風景1.jpeg"; sourceTree = "<group>"; };
+		CEF15BA32684334F00D24753 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CEF7700E2679E20500D50337 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF770112679E20500D50337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF770132679E20500D50337 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEF770152679E20500D50337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +56,7 @@
 		CEF7700F2679E20500D50337 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEF7700E2679E20500D50337 /* テスト.app */,
+				CEF7700E2679E20500D50337 /* SlideshowApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +64,13 @@
 		CEF770102679E20500D50337 /* テスト */ = {
 			isa = PBXGroup;
 			children = (
+				CECBED9126857F7200160F2E /* 風景1.jpeg */,
+				CECBED8F26857F7200160F2E /* 風景2.jpeg */,
+				CECBED9026857F7200160F2E /* 風景3.jpeg */,
 				CEF770112679E20500D50337 /* AppDelegate.swift */,
 				CEF770132679E20500D50337 /* SceneDelegate.swift */,
 				CEF770152679E20500D50337 /* ViewController.swift */,
+				CEF15BA32684334F00D24753 /* ResultViewController.swift */,
 				CEF770172679E20500D50337 /* Main.storyboard */,
 				CEF7701A2679E20800D50337 /* Assets.xcassets */,
 				CEF7701C2679E20800D50337 /* LaunchScreen.storyboard */,
@@ -70,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEF7700D2679E20500D50337 /* テスト */ = {
+		CEF7700D2679E20500D50337 /* SlideshowApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEF770222679E20800D50337 /* Build configuration list for PBXNativeTarget "テスト" */;
+			buildConfigurationList = CEF770222679E20800D50337 /* Build configuration list for PBXNativeTarget "SlideshowApp" */;
 			buildPhases = (
 				CEF7700A2679E20500D50337 /* Sources */,
 				CEF7700B2679E20500D50337 /* Frameworks */,
@@ -82,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "テスト";
+			name = SlideshowApp;
 			productName = "テスト";
-			productReference = CEF7700E2679E20500D50337 /* テスト.app */;
+			productReference = CEF7700E2679E20500D50337 /* SlideshowApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CEF770092679E20500D50337 /* Build configuration list for PBXProject "テスト" */;
+			buildConfigurationList = CEF770092679E20500D50337 /* Build configuration list for PBXProject "SlideshowApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEF7700D2679E20500D50337 /* テスト */,
+				CEF7700D2679E20500D50337 /* SlideshowApp */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +137,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF7701E2679E20800D50337 /* LaunchScreen.storyboard in Resources */,
+				CECBED9226857F7200160F2E /* 風景2.jpeg in Resources */,
 				CEF7701B2679E20800D50337 /* Assets.xcassets in Resources */,
 				CEF770192679E20500D50337 /* Main.storyboard in Resources */,
+				CECBED9426857F7200160F2E /* 風景1.jpeg in Resources */,
+				CECBED9326857F7200160F2E /* 風景3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,7 @@
 				CEF770162679E20500D50337 /* ViewController.swift in Sources */,
 				CEF770122679E20500D50337 /* AppDelegate.swift in Sources */,
 				CEF770142679E20500D50337 /* SceneDelegate.swift in Sources */,
+				CEF15BA42684334F00D24753 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEF770092679E20500D50337 /* Build configuration list for PBXProject "テスト" */ = {
+		CEF770092679E20500D50337 /* Build configuration list for PBXProject "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEF770202679E20800D50337 /* Debug */,
@@ -329,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEF770222679E20800D50337 /* Build configuration list for PBXNativeTarget "テスト" */ = {
+		CEF770222679E20800D50337 /* Build configuration list for PBXNativeTarget "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEF770232679E20800D50337 /* Debug */,
